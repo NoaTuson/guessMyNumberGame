@@ -56,7 +56,7 @@ document.querySelector(".check").addEventListener("click", function () {
 	} else if (userGuess === computerNum) {
 		message("Current number!🎉🎉");
 		document.querySelector(".number").textContent = computerNum;
-		document.querySelector("body").style.backgroundColor = "#60b347";
+		document.querySelector("body").style.backgroundColor = "#5fb87e";
 		document.querySelector(".number").style.width = "30rem";
 
 		if (currentScore > highestScore) {
